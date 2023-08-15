@@ -11,3 +11,5 @@ CTAGS
 .idea
 .env
 .git
+*.lst
+*.jar
