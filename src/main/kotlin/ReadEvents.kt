@@ -16,7 +16,7 @@ fun main(args: Array<String>){
     // Initialize Nylas client
     val nylas: NylasClient = NylasClient(
         apiKey = dotenv["V3_TOKEN"],
-        baseUrl = dotenv["BASE_URL"],
+        apiUri = dotenv["BASE_URL"],
     )
 
     // Get today's day
